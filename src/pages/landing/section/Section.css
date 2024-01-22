@@ -1,0 +1,16 @@
+.Section { 
+    background-color: #282c34;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0 1em;
+}
+
+.Section-selected {
+    min-height: 76vb;
+}
+
+.Section-unselected {
+    min-height: 8vb;
+}
