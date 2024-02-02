@@ -1,10 +1,11 @@
 .Section { 
-    background-color: #282c34;
-    border: 1px solid white;
+    position:relative;
     display: flex;
     align-items: center;
     color: white;
     padding: 0 1em;
+    box-shadow: 0 0 1rem black;
+    background-position-y: 61%;
 }
 
 .Section-selected {

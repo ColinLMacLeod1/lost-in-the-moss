@@ -5,13 +5,14 @@ interface SectionProps {
   mainImg: img;
   images: img[];
   isSelected: boolean;
+  zIndex: number;
 }
 
-function Section({ title, mainImg, images, isSelected }: SectionProps) {
+function Section({ title, mainImg, images, isSelected, zIndex }: SectionProps) {
   return (
     <div
       className={`Section ${isSelected ? "Section-selected" : "Section-unselected"}`}
-      style={{ backgroundImage: mainImg.src }}
+      style={{ backgroundImage: `url(${mainImg.src})`, zIndex }}
     >
       {title}
     </div>

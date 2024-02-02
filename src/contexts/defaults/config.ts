@@ -1,4 +1,8 @@
-
+import jungleWaterfall from "../../resources/images/jungleWaterfall.jpg";
+import icyMountain from "../../resources/images/icyMountain.jpg";
+import hermitMeadows from "../../resources/images/hermitMeadows.jpg";
+import STBeach from "../../resources/images/STBeach.jpg";
+import STSunset from "../../resources/images/STSunset.jpg";
 
 interface section {
   title: string;
@@ -17,7 +21,7 @@ export const defaultConfig = {
     {
       title: "ADVENTURE",
       mainImg: {
-        src: "",
+        src: jungleWaterfall,
         alt: "",
       },
       images: [
@@ -38,7 +42,7 @@ export const defaultConfig = {
     {
       title: "SPORT",
       mainImg: {
-        src: "",
+        src: icyMountain,
         alt: "",
       },
       images: [
@@ -59,7 +63,7 @@ export const defaultConfig = {
     {
       title: "BRAND",
       mainImg: {
-        src: "",
+        src: hermitMeadows,
         alt: "",
       },
       images: [
@@ -80,7 +84,7 @@ export const defaultConfig = {
     {
       title: "DRONE",
       mainImg: {
-        src: "",
+        src: STBeach,
         alt: "",
       },
       images: [
